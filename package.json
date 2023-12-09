@@ -2,5 +2,15 @@
   "dependencies": {
     "nodejs": "^0.0.0",
     "prompt-sync": "^4.2.0"
-  }
+  },
+  "name": "node_js",
+  "version": "1.0.0",
+  "description": "projeto para o reprograme-se",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "alice belchior",
+  "license": "ISC"
 }
