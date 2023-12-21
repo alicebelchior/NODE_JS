@@ -1,0 +1,28 @@
+{
+    "filmes": [
+        {
+            "titulo": "Interestelar",
+            "diretor": "Christopher Nolan",
+            "ano_lancamento": 2014,
+            "genero": "Ficção Científica",
+            "atores": ["Matthew McConaughey", "Anne Hathaway", "Jessica Chastain"],
+            "sinopse": "Um grupo de astronautas viaja através de um buraco de minhoca em busca de um novo lar para a humanidade enquanto enfrenta desafios cósmicos."
+        },
+        {
+            "titulo": "Pantera Negra",
+            "diretor": "Ryan Coogler",
+            "ano_lancamento": 2018,
+            "genero": "Ação",
+            "atores": ["Chadwick Boseman", "Michael B. Jordan", "Lupita Nyongo'o"],
+            "sinopse": "T'Challa retorna a Wakanda para assumir o trono após a morte de seu pai, o rei, e enfrenta desafios internos e externos para proteger seu povo e seu reino."
+        },
+        {
+            "titulo": "A Origem",
+            "diretor": "Christopher Nolan",
+            "ano_lancamento": 2010,
+            "genero": "Ficção Científica",
+            "atores": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Ellen Page"],
+            "sinopse": "Dominic Cobb é um ladrão de informações que invade os sonhos das pessoas para roubar segredos. Ele recebe a chance de redenção ao ser contratado para realizar a tarefa inversa: implantar uma ideia."
+        }
+    ]
+}
