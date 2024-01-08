@@ -26,5 +26,5 @@ cadastrarUsuario()
     console.log(mensagem);
 })
 .catch((mensagem) =>{ //reject
-    console.log(mensagem)
+    console.log(mensagem);
 })
