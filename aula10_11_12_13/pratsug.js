@@ -15,7 +15,7 @@ function lerTarefas(){
         });
 
     } catch (erro) {
-        console.error("Erro ao ler a lista de tarefas.", erro.message)
+        console.error(`Erro ao ler a lista de tarefas: ${erro.message}`)
     }
 }
 
@@ -32,9 +32,9 @@ function criarTarefas(novaTarefa){
 
         //transformar o objeto JS em formato JSON
         fs.writeFileSync("tarefas.json", JSON.stringify(tarefas, null, 2));
-        console.log(`Tarefa "${novaTarefa} adicionada com sucesso`);
+        console.log(`Tarefa "${novaTarefa}" adicionada com sucesso`);
     } catch (erro) {
-        console.error(`Ocorreu um erro ao adicionar a a tarefa ${erro.message}`)
+        console.error(`Ocorreu um erro ao adicionar a tarefa ${erro.message}`)
     }
 }
 
